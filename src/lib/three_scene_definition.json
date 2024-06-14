@@ -1,0 +1,17 @@
+[
+	{
+		"filename": "/hill.gltf",
+		"position": { "x": 20, "y": 15, "z": -10 },
+		"key": "scene1"
+	},
+	{
+		"filename": "/plains.gltf",
+		"position": { "x": 0, "y": -0.5, "z": 0 },
+		"key": "scene2"
+	},
+	{
+		"filename": "/room2.gltf",
+		"position": { "x": 0, "y": 0.7, "z": 0 },
+		"key": "scene3"
+	}
+]
