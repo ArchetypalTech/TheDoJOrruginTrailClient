@@ -1,0 +1,3 @@
+[submodule "tot-dojo"]
+	path = cairo
+	url = git@github.com:ArchetypalTech/TheOrugginTrail-DoJo.git
