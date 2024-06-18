@@ -22,6 +22,16 @@ WARNING: attempting a crossing to the frontiers of crypto country ultimately alw
 
 Your pre death checklist:
 
+You will need to pull the submodule containing the cairo code, either:
+
+### TheOrugginTrail-DoJo
+`git clone --recurse-submodules git@github.com:ArchetypalTech/TheOrugginTrail-DoJo.git`
+
+or assuming you cloned this without the `--recurse-submodules` flag
+
+`git submodule init && git submodules update`
+
+### Dojo
 it's a cairo/strknet/rust project
 
 it uses the Dojo Frameowrk so you'll need a working install of that tooling.
