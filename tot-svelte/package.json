@@ -21,7 +21,7 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "dojo.js": "^0.2.10",
+    "dojo.js": "github:dojoengine/dojo.js#v0.7.4",
     "page": "^1.11.6"
   }
 }
