@@ -21,7 +21,10 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "@dojoengine/core": "^0.7.4",
+    "@dojoengine/torii-client": "^0.7.4",
     "dojo.js": "github:dojoengine/dojo.js#v0.7.4",
-    "page": "^1.11.6"
+    "page": "^1.11.6",
+    "starknet": "^6.1.5"
   }
 }

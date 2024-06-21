@@ -234,7 +234,8 @@ export class TheOrugginTrail {
     async findEntities<T extends Query>(query: T, limit = 10, offset = 0) {
         const torii = await this.toriiPromise;
 
-        const clause = convertQueryToToriiClause(query);
+        // this is perhaps a bad hack especially as this is code gen?
+        const clause = convertQueryToToriiClause(query) ?? null;
 
         const toriiResult = await torii.getEntities({
             limit,
