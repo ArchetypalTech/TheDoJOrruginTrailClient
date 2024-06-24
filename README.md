@@ -34,11 +34,38 @@ or assuming you cloned this without the `--recurse-submodules` flag
 ### 
 it's a cairo/starknet/rust project
 
-it uses the Dojo Frameowrk so you'll need a working ll of that tooling.
+it uses the Dojo Framework so you'll need a working install of that tooling.
 
 the best way to do this is using `asdf`
 [asdf getting started](https://asdf-vm.com/guide/getting-started.html)
 
+install the dojo stuff you need using asdf [dojo asdf](https://book.dojoengine.org/getting-started#install-using-asdf)
+that should give you the dojo-plugin.
 
+now install dojo
+```shell
+asdf install dojo 0.7.2
+```
+
+you also need `scarb`
+```shell 
+asdf install scarb 2.5.4 
+```
+
+you should now have the right versions of the tools installed and you can check by running
+
+```shell
+asdf current
+```
+
+at the root of the repo.
+
+you should see:
+```shell
+dojo    0.7.2   some/path/...
+scarb   2.5.4   some/path/...
+```
+
+it will also say no version set for starknet-foundry but this seems not to matter.
 
 now prepare to die from __fun__!
