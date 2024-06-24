@@ -31,10 +31,14 @@ or assuming you cloned this without the `--recurse-submodules` flag
 
 `git submodule init && git submodules update`
 
-### Dojo
-it's a cairo/strknet/rust project
+### 
+it's a cairo/starknet/rust project
 
-it uses the Dojo Frameowrk so you'll need a working install of that tooling.
-[dojo setup](https://book.dojoengine.org/getting-started)
+it uses the Dojo Frameowrk so you'll need a working ll of that tooling.
+
+the best way to do this is using `asdf`
+[asdf getting started](https://asdf-vm.com/guide/getting-started.html)
+
+
 
 now prepare to die from __fun__!

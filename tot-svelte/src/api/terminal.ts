@@ -5,3 +5,9 @@ export function sendCommand(command: string): Promise<string> {
 		//await processCommand(command, resolve); // promise is resolved in socket.onnotification
 	});
 }
+
+
+function get_config() {
+    let initialConf = DJ.;
+    let tot = DJ.TheOrugginTrail; 
+}

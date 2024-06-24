@@ -4,6 +4,7 @@
   "description": "TOT svelte project, TOT Dojo version and Svelte client",
   "scripts": {
     "build:dojo": "./tot-dojo/scripts/build_manifest.sh",
-    "build:ts_bindings": "./tot-svelte/scripts/gen_typescript_bindings.sh"
+    "build:ts_bindings": "./tot-svelte/scripts/gen_typescript_bindings.sh",
+    "deploy:local": "./tot-dojo/scripts/dev_deploy.sh run"
   }
 }
