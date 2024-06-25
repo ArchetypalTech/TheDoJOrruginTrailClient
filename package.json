@@ -5,6 +5,7 @@
   "scripts": {
     "build:dojo": "./tot-dojo/scripts/build_manifest.sh",
     "build:ts_bindings": "./tot-svelte/scripts/gen_typescript_bindings.sh",
-    "deploy:local": "./tot-dojo/scripts/dev_deploy.sh run"
+    "deploy:local": "./tot-dojo/scripts/dev_deploy.sh run",
+    "deploy:cleanup": "./tot-dojo/scripts/dev_deploy.sh cleanup"
   }
 }
