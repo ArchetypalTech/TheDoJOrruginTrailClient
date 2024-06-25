@@ -42,7 +42,7 @@ the best way to do this is using `asdf`
 install the dojo stuff you need using asdf [dojo asdf](https://book.dojoengine.org/getting-started#install-using-asdf)
 that should give you the dojo-plugin.
 
-now install dojo
+now install dojo, ND you need the dojo-plugin installed by the above link for this to work.
 ```shell
 asdf install dojo 0.7.2
 ```
