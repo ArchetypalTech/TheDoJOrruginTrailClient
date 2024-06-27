@@ -69,3 +69,23 @@ scarb   2.5.4   some/path/...
 it will also say no version set for starknet-foundry but this seems not to matter.
 
 now prepare to die from __fun__!
+
+
+### running locally for test
+
+from the root of the project `pnpm deploy:local`
+
+if you want to monitor the backgrounded processes use `mprocs`
+
+so from the output of the above command look for the 2 l_path's and then:
+
+`mprocs "tail -f <l_pathForKatana>" "tail -f <l_pathForTorii>"` that will tail both logs into your terminal.
+
+Then call the output contract
+
+
+``` shell 
+sozo execute --manifest-path ./tot-dojo/Scarb.toml the_oruggin_trail::systems::outputter::outputter updateOutput --calldata str:"foo"
+```
+
+__NOTE__ if you are running in the root then you will need the `--manifest-path` 
