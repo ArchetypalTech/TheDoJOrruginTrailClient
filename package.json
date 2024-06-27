@@ -1,8 +1,11 @@
 {
   "name": "tot-svelte-dojo",
   "version": "0.1.0",
-  "description": "",
+  "description": "TOT svelte project, TOT Dojo version and Svelte client",
   "scripts": {
-    "build:dojo": "./tot-dojo/scripts/build_manifest.sh"
+    "build:dojo": "./tot-dojo/scripts/build_manifest.sh",
+    "build:ts_bindings": "./tot-svelte/scripts/gen_typescript_bindings.sh",
+    "deploy:local": "./tot-dojo/scripts/dev_deploy.sh run",
+    "deploy:cleanup": "./tot-dojo/scripts/dev_deploy.sh cleanup"
   }
 }
