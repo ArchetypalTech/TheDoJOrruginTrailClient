@@ -1,6 +1,8 @@
+This is an experimental repo, testing blending the Frontend / Sveltle work that needs refactoring and changing around, houdini, graphQL, Staknet libs etc. with the smart contracts / Backend.
 
+Ultimately this repo will be removed and the two seperate FE / BE repos will be where the project rests.
 
-Your pre death checklist:
+But for now if you want to check this out:-
 
 You will need to pull the submodule containing the cairo code, either:
 
